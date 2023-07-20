@@ -7,7 +7,7 @@ namespace PokeReviewApp.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { 
         }
-
+        //aşağıdaki db lere erişim sağlıyor
         public DbSet<Category> Categories { get; set; }
         public DbSet<Country>Countries { get; set; }
         public DbSet<Owner> Owners { get; set; }
